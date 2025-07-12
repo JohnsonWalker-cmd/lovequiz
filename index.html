@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Love Quiz 💖</title>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Start Screen -->
+    <div id="start-screen">
+      <h1>💘 Love Quiz 💘</h1>
+      <p>Let’s see how well you know us 😉</p>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quiz-container" class="hide">
+      <div id="question-box">
+        <h2 id="question-text"></h2>
+        <div id="options-container"></div>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <!-- Final Screen -->
+    <div id="final-screen" class="hide">
+      <h2>One last question… 💖</h2>
+      <p>Will you be my girlfriend?</p>
+      <div class="final-buttons">
+        <button id="yes-btn">Yes 💍</button>
+        <button id="no-btn">No 😅</button>
+      </div>
+    </div>
+
+    <!-- Success Screen -->
+    <div id="success-screen" class="hide">
+      <h2>Yaaay! You made me the happiest person alive 🥹❤️</h2>
+    </div>
+  </div>
+  <audio id="love-song" src="./love-song.mp3" loop></audio>
+
+  <script src="./script.js"></script>
+</body>
+</html>
